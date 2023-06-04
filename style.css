@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #blackbox{
+    border-radius: 5px;
+    font-size: 5;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  #greenbox{
+    text-align: center;
+    border-radius: 5px;
+    width: 125px;
+    height: 25px;
+    margin-left: 1100px;
+    margin-top: -24px;
+  }
+  
+  #a1{
+    text-decoration: none;
+  }
+  
+  #a2{
+    text-decoration: none;
+  }
+
+  #a3{
+    text-decoration: none;
+  }
+
+  #a4{
+    text-decoration: none;
+  }
+
+  #a5{
+    text-decoration: none;
+  }
+
+  #a6{
+    text-decoration: none;
+  }
+
+  #a7{
+    text-decoration: none;
+  }
+
+  #a8{
+    text-decoration: none;
+  }
+
+  #a9{
+    text-decoration: none;
+  }
+.imgSlider{
+  margin-left: 300px;
+  height: 500px;
+  width: 60%;
+  background-image: url(ambedkar.jpg);
+  background-size: 100% 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  animation: ChangeImage 60s linear infinite;
+}
+
+@keyframes ChangeImage{
+  0% {
+    background-image: url(ambedkar.jpg);
+  }
+  12.5% {
+    background-image: url(birlamandir.jpg);
+  }
+  25% {
+    background-image: url(charminar.jpg);
+  }
+  37.5% {
+    background-image: url(golcondafort.jpg);
+  }
+  50% {
+    background-image: url(ramoji\ film\ city.jpg);
+  }
+  62.5% {
+    background-image: url(stattue\ of\ equality.webp);
+  }
+  75% {
+    background-image: url(hussain\ sagar.jpg);
+  }
+  87.5% {
+    background-image: url(hussain\ sagar.jpg);
+  }
+  100% {
+    background-image: url(ambedkar.jpg);
+  }
+}
+
+#gatewaybutton{
+  height: 35px;
+  width: 200px;
+  background-color: cyan;
+  margin-left: 580px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#gatewaybuttonjuly{
+  height: 55px;
+  width: 300px;
+  margin-left: 520px;
+}
+
+#p1{
+  margin-bottom: -150px;
+}
+#p2{
+  margin-bottom: -150px;
+}
+
+#gatewaycontainer{
+  width: 100vw;
+  height: 100vh;
+  background-image: url(background.png);
+  background-position: center;
+  background-size: cover;
+  padding: 0 8%;
+  place-items: center;
+}
+
+#content{
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.content h1 span{
+  color: #ff3753;
+}
+
+
+.launch-time div{
+  flex-basis: 100px;
+}
+
+.launch-time div p{
+  flex-basis: 100px;
+  font-size: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -14px;
+}
+
+.rocket{
+  width: 250px;
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  animation: rocket 4s linear infinite;
+}
+
+@keyframes rocket{
+  0%{
+    bottom: 0;
+    opacity: 0;
+  }
+  100%{
+    bottom: 105%;
+    opacity: 1;
+  }
+}
+
+#societyinfo{
+  margin-top: 10px;
+  display: flex;
+  font-size: 25px;
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+.imgSlider1{
+  margin-left: 300px;
+  height: 325px;
+  width: 60%;
+  background-image: url(ambedkar.jpg);
+  background-size: 100% 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  animation: ChangeImage 60s linear infinite;
+}
+
+@keyframes ChangeImage{
+  0% {
+    background-image: url(ambedkar.jpg);
+  }
+  12.5% {
+    background-image: url(birlamandir.jpg);
+  }
+  25% {
+    background-image: url(charminar.jpg);
+  }
+  37.5% {
+    background-image: url(golcondafort.jpg);
+  }
+  50% {
+    background-image: url(ramoji\ film\ city.jpg);
+  }
+  62.5% {
+    background-image: url(stattue\ of\ equality.webp);
+  }
+  75% {
+    background-image: url(hussain\ sagar.jpg);
+  }
+  87.5% {
+    background-image: url(hussain\ sagar.jpg);
+  }
+  100% {
+    background-image: url(ambedkar.jpg);
+  }
+}
+
+#Objectives{
+  font-size: 25px;
+  margin-left: 150px;
+  margin-top: 15px;
+}
+
+#Objectivetext{
+  margin-top: 25px;
+  margin-left: 150px;
+  font-size: 23px;
+  margin-bottom: 10px;
+  margin-right: 75px;
+}
+
+#snmbox{
+  border-radius: 5px;
+    width: 125px;
+    height: 35px;
+    margin-left: 150px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#logoend{
+  margin-left: 45%;
+  margin-right: 25%;
+}
+
+#size{
+  font-size: 25px;
+}
+
+#registeralign{
+  text-align: center;
+}
+
+#textbearers{
+  font-size: 30px;
+  text-align: center;
+  color: red;
+}
+
+#Officebearers{
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+#nameandrole{
+  font-size: 20px;
+  margin-left: 45px;
+}
+
+#nameandrole2{
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+#nameandrole3{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#nameandrole4{
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+#nameandrole5{
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+#imagebearers{
+  margin-top: 30px;
+  margin-left: 15%;
+}
+
+#imagebearers2{
+  margin-top: -250px;
+  margin-left: 35%;
+}
+
+#imagebearers3{
+  margin-top: -250px;
+  margin-left: 55%
+}
+
+#imagebearers4{
+  margin-top: -250px;
+  margin-left: 75%
+}
+
+#imagebearers5{
+  margin-left: 15%
+}
+
+#imagebearers6{
+  margin-left: 35%;
+  margin-top: -250px;
+}
+
+#imagebearers7{
+  margin-top: -250px;
+  margin-left: 55%
+}
+
+#imagebearers8{
+  margin-top: -250px;
+  margin-left: 75%
+}
+
+#regestrationbox{
+  margin-top: -450px;
+  margin-left: 40%;
+}
+
+#regesterationid{
+  margin-left: 15%;
+  text-align: center;
+}
+
+#regesterationform{
+  margin-left: 600px;
+  margin-top: -500px;
+  height: 115px;
+  width: 600px;
+  background-color: #fff;
+}
+
+form button{
+  padding: 15px;
+  background: #ff5361;
+  color: #fff;
+  font-size: 18px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+form p{
+  font-size: large;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+#venue{
+  font-size: large;
+  color: black;
+  text-align: justify;
+}
